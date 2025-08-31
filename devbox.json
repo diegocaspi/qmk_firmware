@@ -8,6 +8,9 @@
     "scripts": {
       "compile": [
           "qmk compile -kb keebio/iris_ce/rev1 -km diegocaspi"
+      ],
+      "flash": [
+        "qmk flash -kb keebio/iris_ce/rev1 -km diegocaspi"
       ]
     }
   }
