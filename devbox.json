@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
+  "packages": [
+    "qmk@1.1.8",
+    "git@latest"
+  ],
+  "shell": {
+    "scripts": {
+      "compile": [
+          "qmk compile -kb keebio/iris_ce/rev1 -km diegocaspi"
+      ]
+    }
+  }
+}
